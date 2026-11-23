@@ -1,0 +1,59 @@
+<svg width="800" height="360" viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+    .header { fill: #161b22; }
+    .title { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #8b949e; text-anchor: middle; }
+    .text { font-family: 'Courier New', Courier, monospace; font-size: 15px; fill: #c9d1d9; }
+    .prompt { fill: #3fb950; font-weight: bold; }
+    .cmd { fill: #ffffff; }
+    .key { fill: #58a6ff; font-weight: bold; }
+    .ascii { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #79c0ff; white-space: pre; }
+    .cursor { fill: #3fb950; animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  
+  <rect class="bg" x="1" y="1" width="798" height="358" rx="10" />
+  <path class="header" d="M2,11 a10,10 0 0 1 10,-10 h776 a10,10 0 0 1 10,10 v24 h-796 z" />
+
+  
+  <circle cx="22" cy="18" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="18" r="6" fill="#27c93f" />
+  <text x="400" y="23" class="title">danielmerino17@github: ~</text>
+
+  
+  <text x="25" y="65" class="text">
+    <tspan class="prompt">danielmerino17@dev</tspan>:<tspan class="key">~</tspan>$ <tspan class="cmd">neofetch --profile</tspan>
+  </text>
+
+  
+  <text x="25" y="110" class="ascii">   ____              _      _ </text>
+  <text x="25" y="128" class="ascii">  |  _ \  __ _ _ __ (_) ___| |</text>
+  <text x="25" y="146" class="ascii">  | | | |/ _` | '_ \| |/ _ \ |</text>
+  <text x="25" y="164" class="ascii">  | |_| | (_| | | | | |  __/ |</text>
+  <text x="25" y="182" class="ascii">  |____/ \__,_|_| |_|_|\___|_|</text>
+  <text x="25" y="215" class="ascii" style="fill: #8b949e;">     Informática @ FCA UNAM</text>
+
+  
+  <text x="330" y="110" class="text"><tspan class="key">User:</tspan>      Eduardo Daniel Merino</text>
+  <text x="330" y="135" class="text"><tspan class="key">Location:</tspan>  CDMX, México</text>
+  <text x="330" y="160" class="text"><tspan class="key">Backend:</tspan>   PHP, Laravel, Java</text>
+  <text x="330" y="185" class="text"><tspan class="key">Frontend:</tspan>  JavaScript, Bootstrap, CSS</text>
+  <text x="330" y="210" class="text"><tspan class="key">Databases:</tspan> PostgreSQL, MySQL, SQLite</text>
+  <text x="330" y="235" class="text"><tspan class="key">Tools:</tspan>     Git, GitHub, VS Code, Filament</text>
+
+  
+  <rect x="330" y="260" width="24" height="16" fill="#ff5f56" />
+  <rect x="354" y="260" width="24" height="16" fill="#ffbd2e" />
+  <rect x="378" y="260" width="24" height="16" fill="#27c93f" />
+  <rect x="402" y="260" width="24" height="16" fill="#58a6ff" />
+  <rect x="426" y="260" width="24" height="16" fill="#bc8cff" />
+  <rect x="450" y="260" width="24" height="16" fill="#39c5cf" />
+
+  
+  <text x="25" y="325" class="text">
+    <tspan class="prompt">danielmerino17@dev</tspan>:<tspan class="key">~</tspan>$
+  </text>
+  <rect class="cursor" x="215" y="312" width="9" height="16" />
+</svg>
